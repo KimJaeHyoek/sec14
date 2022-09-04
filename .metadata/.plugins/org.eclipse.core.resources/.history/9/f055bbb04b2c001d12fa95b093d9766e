@@ -1,0 +1,23 @@
+package InheritanceRunner;
+
+public class StudentRunner {
+	public static void main(String[] args) {
+//		Student student = new Student();
+//		student.setName("KimJeaHyeok");
+//		student.setEmail("gksrnrrl6gh@naver.com");
+//		 
+		Person person = new Person();
+		person.setName("김재혁");
+		person.setEmail("gksrnrrl6gh@naver.com");
+		person.setPhoneNumber("010-2725-7066");
+		String value = person.toString();
+		Employee employee = new Employee();
+		employee.setTitle("치킨");
+		employee.setEmployer("치킨");
+		employee.setEmployeeGrade("치킨");
+		employee.setSalary("치킨");
+	System.out.println(value);
+	System.out.println(person);
+	}
+
+}

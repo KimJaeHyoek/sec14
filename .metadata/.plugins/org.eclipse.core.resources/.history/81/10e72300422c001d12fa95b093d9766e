@@ -1,0 +1,8 @@
+
+public class BookRunner {
+	public static void main(String[] args) {
+		Book book = new Book(123, "Object Oriented Programming with Java", "김재혁");
+		System.out.println(book);
+	}
+
+}
